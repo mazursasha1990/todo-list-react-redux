@@ -1,0 +1,45 @@
+.card {
+    position: relative;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+.card textarea {
+    box-sizing: border-box;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    resize: none;
+}
+
+.btns button {
+    max-height: 2rem;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    width: 70px;
+    margin: 5px;
+}
+
+.completed {
+    position: absolute;
+    right: 0.3rem;
+    top: 0.3rem;
+    background-color: red;
+    border: 2px solid gray;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.3rem 1rem;
+}

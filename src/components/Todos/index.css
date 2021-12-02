@@ -1,0 +1,40 @@
+.addTodos {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.todo-input {
+    min-width: 15rem;
+    width: 40vw;
+    max-height: 2.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    align-self: center;
+}
+
+.todo-input:focus {
+    outline: none;
+    border: 2px solid grey
+}
+
+.add-btn {
+    max-height: 2.5rem;
+    margin-left: 1rem;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    width: 40px;
+}
+
+.add-btn:hover {
+    background-color: rgb(243, 7, 7);
+}
